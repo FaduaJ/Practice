@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #1c1c1c !important; 
+    border-bottom: 1px solid #feda4a; 
+    font-family: 'Orbitron', sans-serif; 
+  }
+  
+  .navbar-brand {
+    color: #feda4a; 
+    font-size: 30px; 
+    font-weight: bold; 
+  }
+  
+  /* Icono del menú hamburguesa */
+  .navbar-toggler {
+    border-color: #feda4a; 
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23feda4a' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
+  .nav-link {
+    color: #d7d7d7; 
+    transition: color 0.3s ease; 
+  }
+  
+  .nav-link:hover {
+    color: #feda4a; 
+  }
+  

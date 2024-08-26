@@ -1,0 +1,22 @@
+body {
+    background-color: #000;
+}
+
+.card {
+    background-color: #1c1c1c;
+    border: 1px solid #feda4a;
+    border-radius: 8px;
+    padding: 20px;          /* Espaciado interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+    font-size: 24px;
+    color: #feda4a;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.card-text {
+    color: #d7d7d7;
+    margin-bottom: 10px;
+}

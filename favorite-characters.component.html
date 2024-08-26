@@ -1,0 +1,15 @@
+<div class="row">
+  @for (character of favoriteList(); track $index) {
+    <div class="col-md-3 mb-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{ character.name }}</h5>
+          <p class="card-text">Height: {{ character.height }} cm</p>
+          <p class="card-text">Mass: {{ character.mass }} kg</p>
+          <p class="card-text">Birth Year: {{ character.birth_year }}</p>
+          <p class="card-text">Gender: {{ character.gender }}</p>
+        </div>
+      </div>
+    </div>
+  }
+</div>
